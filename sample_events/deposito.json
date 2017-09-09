@@ -1,0 +1,6 @@
+{
+  "path": "/api/v1/deposito",
+  "conta": "1",
+  "valor": "200",
+  "httpMethod": "POST"
+}

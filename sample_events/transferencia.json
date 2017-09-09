@@ -1,0 +1,7 @@
+{
+  "path": "/api/v1/transferencia",
+  "conta_origem": "7",
+  "conta_destino": "3",
+  "valor": "100",
+  "httpMethod": "POST"
+}
