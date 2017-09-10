@@ -44,6 +44,13 @@ lambda-local -l src/saldo.js -e sample_events/saldo.json
 Subsititua saldo, pelo nome de qualquer outro serviço que queira testar.
 
 
+## Leia mais
+
+- [AWS Lambda](https://aws.amazon.com/pt/lambda/)
+- [lambda-local](https://www.npmjs.com/package/lambda-local)
+- [Serverless Architectures](https://martinfowler.com/articles/serverless.html)
+
+
 ## Observações
 
 - Como dito anteriormente, as instâncias das máquinas são inicializadas no request, isto significa que como não temos um banco de dados persistindo os dados, e o valor das contas é inicializado junto ao script aleatoriamente, as operações são feitas na conta, mas os valores não vão bater se você puxar o saldo duas vezes seguidas, ou o saldo e fazer uma operção de saque/depósito/transferência.
